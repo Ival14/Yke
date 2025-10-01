@@ -9,7 +9,7 @@
   </header>
 
   <section class="content content--padded">
-    <h4 class="type-tiny">Intro</h4>
+    <h4 class="type-tiny">Introducción</h4>
     <p class="content__text"><?php echo get_post_meta(get_the_ID(), 'intro_text', true) ?: get_the_content(); ?></p>
   </section>
 
